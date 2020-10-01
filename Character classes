@@ -1,0 +1,4 @@
+\d         matches a single character that is a digit
+\w         matches a word character (alphanumeric character plus underscore)
+\s         matches a whitespace character (includes tabs and line breaks)
+.          matches any character
