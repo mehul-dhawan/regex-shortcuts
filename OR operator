@@ -1,0 +1,2 @@
+a(b|c)     matches a string that has a followed by b or c (and captures b or c)
+a[bc]      same as previous, but without capturing b or c
