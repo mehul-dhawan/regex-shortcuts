@@ -1,0 +1,8 @@
+abc*        matches a string that has ab followed by zero or more c 
+abc+        matches a string that has ab followed by one or more c
+abc?        matches a string that has ab followed by zero or one c
+abc{2}      matches a string that has ab followed by 2 c
+abc{2,}     matches a string that has ab followed by 2 or more c
+abc{2,5}    matches a string that has ab followed by 2 up to 5 c
+a(bc)*      matches a string that has a followed by zero or more copies of the sequence bc
+a(bc){2,5}  matches a string that has a followed by 2 up to 5 copies of the sequence bc
